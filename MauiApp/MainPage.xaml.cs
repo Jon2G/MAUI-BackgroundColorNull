@@ -10,7 +10,8 @@
 
         private void OnButtonClicked(object sender, EventArgs e)
         {
-            this.BackgroundColor = null;
+            //this.BackgroundColor = null;
+            this.ClearValue(View.BackgroundColorProperty);
         }
     }
 
